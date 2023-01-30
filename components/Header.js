@@ -9,7 +9,7 @@ export default function Header({ name }) {
         src={logoPic}
         width={200}
         height={200}
-        class="rounded-full"
+        className="rounded-full"
       />
       <p className="text-2xl dark:text-white text-center">
         <Link href="/">
