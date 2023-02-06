@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Adam Hanna\'s Adventures in Programming';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : '';
 
   return {
     name,
